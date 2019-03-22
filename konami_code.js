@@ -17,7 +17,7 @@ function init () {
   console.log('Hello');
   let index = 0;
   
-  document.body.addEventListner('keydown', function (e) {
+  document.body.addEventListener('keydown', function (e) {
     //Code below attempts to match the user input with the correct character sequence
   
     const key = e.key;
