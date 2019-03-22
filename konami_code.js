@@ -14,6 +14,7 @@ const codes = [
 
 function init () {
   // Initializing a count of commands done in the correct sequence
+  console.log('Hello');
   let index = 0;
   
   document.body.addEventListner('keydown', function (e) {
